@@ -1,0 +1,166 @@
+.aboutUs {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: black;
+    align-items: center;
+    display: flex;
+}
+
+.aboutUs svg {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.main {
+    overflow: auto;
+    padding: 20px;
+    text-align: initial;
+    box-shadow: 1px 1px 5px 1px grey;
+    background-color:#fff;
+    border-radius: 10px;
+}
+
+.main img {
+    width: 20%;
+    margin-bottom: 15px;
+}
+.editable :first-child {
+    width: 100%;
+    display: flex;
+}
+.editable svg{
+    color: #c31e1ee3;
+    background-color: #fff;
+}
+.editable button {
+    background-color: #fff;
+}
+
+.tabsContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.tabsContainer button {
+    border: none;
+    background-color: #fff;
+    color: #b1b9c9;
+    font-size: 19px;
+}
+
+.tabsContainer button:hover, .tabsContainer button:active {
+    border: none;
+    background-color: #fff;
+    color: black;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contactcards {
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.contactcards::-webkit-scrollbar {
+    display: none;
+}
+
+.contactcardsContainer {
+    border: 2px solid #b1b9c9;
+    display: flex;
+    justify-content: space-around;
+    color: #c31e1ee3;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px; 
+}
+
+.cardItemsContainer {
+    border: 2px solid #b1b9c9;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    color: #c31e1ee3;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.contactCardItems {
+    color: black;
+    display: flex;
+    line-height: 2.5;
+    flex-direction: column;
+}
+
+.cardItems {
+    color: black;
+    display: flex;
+    align-items: center;
+    line-height: 2.5;
+    flex-wrap: wrap;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.items svg {
+    margin-right: 20px;
+    color: #b1b9c9;
+}
+
+.rightSideBar {
+    font-size: 19px;
+    padding: 40px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 1px 5px 1px grey;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.saveButton {
+    background-color: #ff003aa6;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.MuiTableCell-paddingNone input {
+    border: none;
+    background-color: #b1b9c96b;
+    padding: 10px;
+    width: 450px;
+    margin: 25px 0;
+}
+
+.addMore {
+    background-color: #ff003a29;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.MuiTableBody-root {
+    margin-bottom: 185px;
+}

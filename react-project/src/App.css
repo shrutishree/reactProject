@@ -1,0 +1,174 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #b1b9c94d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px 10px;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 900px;
+    gap: 1rem;
+    height: 100%;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.leftSideBar {
+    font-size: 19px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px grey;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.sidebar a {
+    color: #b1b9c9;
+}
+
+.leftSideBar img {
+    width: 30%;
+}
+
+.sidebar {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    color: #b1b9c9;
+}
+
+.sidebar:hover {
+    background-color: #a82f2f4a;
+    border-radius: 20px;
+    color: #c31e1ee3;
+}
+
+.sidebar svg {
+    margin-right: 20px;
+}
+
+.headerContainer {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.left-container {
+    width: 26%;
+}
+
+.left-container img {
+    width: 50%;
+}
+
+.containerheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+
+.right-container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 74%;
+    justify-content: space-between;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 60%;
+    padding: 5px;
+    height: 20px;
+    outline: none;
+    background-color: #b1b9c900;
+    border: none;
+}
+
+.searchButton {
+    height: 36px;
+    border: 1px solid silver;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #b1b9c94d;
+    width: 65%;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout {
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.helpButton {
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.user {
+    padding: 10px;
+    border: none;
+    background: none;
+}
+
+.needHelp {
+    margin-top: 50px;
+    border-style: ridge;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.teamSupport {
+    font-size: 0.75em;
+    padding: 10px 0px;
+}
